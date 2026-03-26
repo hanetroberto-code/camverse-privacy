@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamVerse – Privacy Policy</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #0f0f0f;
+            color: #e0e0e0;
+            line-height: 1.7;
+            padding: 24px 16px 64px;
+        }
+        .container { max-width: 720px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 40px; }
+        header h1 { font-size: 2rem; color: #fff; margin-bottom: 4px; }
+        header p  { color: #888; font-size: 0.9rem; }
+
+        .lang-toggle {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            margin-bottom: 36px;
+        }
+        .lang-toggle button {
+            padding: 8px 28px;
+            border: 1px solid #444;
+            border-radius: 24px;
+            background: transparent;
+            color: #aaa;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all .2s;
+        }
+        .lang-toggle button.active {
+            background: #FF1744;
+            border-color: #FF1744;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .content { display: none; }
+        .content.active { display: block; }
+
+        h2 {
+            font-size: 1.1rem;
+            color: #fff;
+            margin: 32px 0 8px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid #222;
+        }
+        p  { margin-bottom: 12px; color: #ccc; }
+        ul { padding-left: 20px; margin-bottom: 12px; }
+        li { color: #ccc; margin-bottom: 4px; }
+        a  { color: #FF1744; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .badge {
+            display: inline-block;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 10px 16px;
+            margin: 8px 0 16px;
+            font-size: 0.85rem;
+            color: #aaa;
+        }
+        .badge strong { color: #fff; }
+
+        footer {
+            text-align: center;
+            margin-top: 56px;
+            color: #555;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <header>
+        <h1>CamVerse</h1>
+        <p>Privacy Policy</p>
+    </header>
+
+    <div class="lang-toggle">
+        <button id="btn-en" class="active" onclick="setLang('en')">English</button>
+        <button id="btn-it" onclick="setLang('it')">Italiano</button>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ ENGLISH -->
+    <div id="content-en" class="content active">
+
+        <div class="badge"><strong>Last updated:</strong> March 2026</div>
+
+        <p>CamVerse ("the App") is a multi-camera director tool for content creators. This policy explains what data the App accesses, how it is used, and what it never does.</p>
+
+        <h2>1. Data We Collect</h2>
+        <p>CamVerse does <strong>not collect, transmit, or store any personal data on external servers.</strong> Everything stays on your device.</p>
+
+        <h2>2. Permissions and Why We Need Them</h2>
+        <ul>
+            <li><strong>Camera</strong> — to capture video from your phone's front and back camera.</li>
+            <li><strong>Microphone</strong> — to record audio alongside video.</li>
+            <li><strong>Bluetooth &amp; Location</strong> — required by Android to discover and connect to Meta Ray-Ban glasses over Bluetooth.</li>
+            <li><strong>Internet</strong> — to send your live stream directly to Twitch, YouTube, or Facebook via RTMP. No data passes through CamVerse servers.</li>
+            <li><strong>Storage / Media</strong> — to save recorded videos to your device's gallery.</li>
+        </ul>
+
+        <h2>3. Stream Keys</h2>
+        <p>When you enter a stream key for Twitch, YouTube, or Facebook, it is saved <strong>only in your device's local storage</strong> (Android SharedPreferences). It is never uploaded to any server and never shared with anyone.</p>
+
+        <h2>4. Live Streaming</h2>
+        <p>When you start a live stream, your video and audio are sent <strong>directly from your device to the streaming platform</strong> (Twitch, YouTube, or Facebook) using their official RTMP endpoints. CamVerse does not relay, intercept, or store your stream content.</p>
+
+        <h2>5. Third-Party Services</h2>
+        <p>If you stream live, your data is processed by the platform you choose. Please review their respective privacy policies:</p>
+        <ul>
+            <li>Twitch: <a href="https://www.twitch.tv/p/legal/privacy-policy/" target="_blank">twitch.tv/p/legal/privacy-policy</a></li>
+            <li>YouTube: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+            <li>Facebook: <a href="https://www.facebook.com/privacy/policy/" target="_blank">facebook.com/privacy/policy</a></li>
+        </ul>
+        <p>If you use Meta Ray-Ban glasses, Meta's Wearables SDK is used to establish the connection. Meta's privacy policy applies to that interaction.</p>
+
+        <h2>6. Analytics &amp; Crash Reporting</h2>
+        <p>CamVerse does <strong>not use any third-party analytics or advertising SDKs</strong>. There are no trackers, no ads, no crash reporting services that transmit data externally.</p>
+
+        <h2>7. Children's Privacy</h2>
+        <p>CamVerse is not directed at children under 13. We do not knowingly collect information from children.</p>
+
+        <h2>8. Changes to This Policy</h2>
+        <p>If we update this policy, the new version will be published at this URL with an updated date. Continued use of the App after changes constitutes acceptance.</p>
+
+        <h2>9. Contact</h2>
+        <p>Questions? <a href="#" class="contact-link">Send us an email</a></p>
+
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════ ITALIANO -->
+    <div id="content-it" class="content">
+
+        <div class="badge"><strong>Ultimo aggiornamento:</strong> Marzo 2026</div>
+
+        <p>CamVerse ("l'App") è uno strumento di regia multi-camera per content creator. Questa policy spiega a quali dati l'App accede, come vengono utilizzati e cosa non fa mai.</p>
+
+        <h2>1. Dati Raccolti</h2>
+        <p>CamVerse <strong>non raccoglie, trasmette né archivia dati personali su server esterni.</strong> Tutto rimane sul tuo dispositivo.</p>
+
+        <h2>2. Permessi e Perché Sono Necessari</h2>
+        <ul>
+            <li><strong>Fotocamera</strong> — per acquisire video dalla fotocamera frontale e posteriore del telefono.</li>
+            <li><strong>Microfono</strong> — per registrare l'audio insieme al video.</li>
+            <li><strong>Bluetooth e Posizione</strong> — richiesti da Android per individuare e connettere gli occhiali Meta Ray-Ban tramite Bluetooth.</li>
+            <li><strong>Internet</strong> — per inviare lo stream live direttamente a Twitch, YouTube o Facebook via RTMP. Nessun dato passa attraverso i server di CamVerse.</li>
+            <li><strong>Archiviazione / Media</strong> — per salvare i video registrati nella galleria del dispositivo.</li>
+        </ul>
+
+        <h2>3. Stream Key</h2>
+        <p>Quando inserisci una stream key per Twitch, YouTube o Facebook, viene salvata <strong>solo nella memoria locale del tuo dispositivo</strong> (Android SharedPreferences). Non viene mai caricata su alcun server né condivisa con nessuno.</p>
+
+        <h2>4. Streaming Live</h2>
+        <p>Quando avvii uno stream live, video e audio vengono inviati <strong>direttamente dal tuo dispositivo alla piattaforma di streaming</strong> (Twitch, YouTube o Facebook) tramite i loro endpoint RTMP ufficiali. CamVerse non fa da relay, non intercetta e non archivia il contenuto dello stream.</p>
+
+        <h2>5. Servizi di Terze Parti</h2>
+        <p>Se fai una diretta, i tuoi dati vengono elaborati dalla piattaforma che scegli. Consulta le rispettive privacy policy:</p>
+        <ul>
+            <li>Twitch: <a href="https://www.twitch.tv/p/legal/privacy-policy/" target="_blank">twitch.tv/p/legal/privacy-policy</a></li>
+            <li>YouTube: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+            <li>Facebook: <a href="https://www.facebook.com/privacy/policy/" target="_blank">facebook.com/privacy/policy</a></li>
+        </ul>
+        <p>Se utilizzi gli occhiali Meta Ray-Ban, viene usato il Meta Wearables SDK per stabilire la connessione. In tal caso si applica la privacy policy di Meta.</p>
+
+        <h2>6. Analytics e Report Crash</h2>
+        <p>CamVerse <strong>non utilizza SDK di analytics o pubblicità di terze parti</strong>. Non ci sono tracker, non ci sono annunci, non ci sono servizi di crash reporting che trasmettono dati all'esterno.</p>
+
+        <h2>7. Privacy dei Minori</h2>
+        <p>CamVerse non è destinata a bambini sotto i 13 anni. Non raccogliamo consapevolmente informazioni da minori.</p>
+
+        <h2>8. Modifiche a Questa Policy</h2>
+        <p>Se aggiorniamo questa policy, la nuova versione sarà pubblicata a questo URL con la data aggiornata. L'uso continuato dell'App dopo le modifiche costituisce accettazione.</p>
+
+        <h2>9. Contatti</h2>
+        <p>Domande? <a href="#" class="contact-link">Scrivici una email</a></p>
+
+    </div>
+
+    <footer>
+        <p>CamVerse</p>
+    </footer>
+
+</div>
+
+<script>
+    function setLang(lang) {
+        document.getElementById('content-en').classList.toggle('active', lang === 'en');
+        document.getElementById('content-it').classList.toggle('active', lang === 'it');
+        document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+        document.getElementById('btn-it').classList.toggle('active', lang === 'it');
+    }
+    // Auto-detect browser language
+    if (navigator.language && navigator.language.startsWith('it')) setLang('it');
+
+    // Email obfuscation — assembled at runtime so scrapers don't find it
+    const u = 'hanetroberto';
+    const d = 'gmail.com';
+    const email = u + '@' + d;
+    document.querySelectorAll('.contact-link').forEach(function(el) {
+        el.href = 'mailto:' + email;
+    });
+</script>
+</body>
+</html>
